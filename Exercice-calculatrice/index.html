@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/calculator.png">
+    <link rel="stylesheet" href="style.css" rel="stylesheet" type="text/css">
+    <title>Calculatrice en ligne.</title>
+</head>
+
+<body>
+    <main class="container">
+        <div id="ecran">
+           <span id="screen" class="resultat-ecran"> 0 </span>
+        </div>
+
+        <section id="bouttons">
+            <div class="colonne">
+                <input id="reset" class="btn" type="reset" value="C">
+                <input class="btn btn-select" type="button" value="(">
+                <input class="btn btn-select" type="button" value=")">
+                <input class="btn color1 btn-select" type="button" value="+">
+            </div>
+
+            <div class="colonne">
+                <input class="btn btn-select" type="button" value="7">
+                <input class="btn btn-select" type="button" value="8">
+                <input class="btn btn-select" type="button" value="9">
+                <input class="btn color1 btn-select" type="button" value="-">
+            </div>
+
+            <div class="colonne">
+                <input class="btn btn-select" type="button" value="4">
+                <input class="btn btn-select" type="button" value="5">
+                <input class="btn btn-select" type="button" value="6">
+                <input class="btn color1 btn-select" type="button" value="*">
+            </div>
+
+            <div class="colonne">
+                <input class="btn btn-select" type="button" value="1">
+                <input class="btn btn-select" type="button" value="2">
+                <input class="btn btn-select" type="button" value="3">
+                <input class="btn color1 btn-select" type="button" value="/">
+            </div>
+
+            <div class="colonne">
+                <input class="btn btn-select" type="button" value=".">
+                <input class="btn btn-select" type="button" value="0">
+                <input class="btn btn-select" type="button" value=",">
+                <input id="equal" class="btn color1" type="button" value="=">
+            </div>
+        </section>
+    </main>
+    <script type="text/Javascript" src="style.js"></script>
+</body>
+
+</html>
